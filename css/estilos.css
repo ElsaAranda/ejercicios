@@ -1,0 +1,32 @@
+footer a{
+    margin-left:5px;
+}
+ body a{
+     padding:15px;
+     margin:5px;
+ }
+
+ footer{
+    margin-top:400px;
+    width:100%;
+    height:200px;
+}
+
+footer img{
+    margin-left: 800px;
+}
+
+h5{
+	background-color: #900c3f;
+	color: white;
+}
+div.numeros{
+	margin-top: 20px;
+	margin: 10px;
+	padding: 2px;
+}
+div.operadores{
+	margin-top: 10px;
+	margin: 10px;
+	padding: 2px;
+}

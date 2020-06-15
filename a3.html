@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Suma</title>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/estilos.css">
+</head>
+<style>
+  body {
+  background-color: #900c3f;
+	background-image: url('images/fundilloter.jpg');
+  background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%; }
+</style>
+<body class="text-center">
+	<label>De click en "Iniciar" para sumar</label><br>
+	<label>Para terminar la suma ingrese '0' o un número negativo o de click en "Cancelar"</label><br>
+
+<button onclick="Suma();">Iniciar</button>
+
+<p id="demo"></p>
+
+<script>
+function Suma(){
+  var x=0;
+  do{
+  	var n =parseInt(prompt("Ingrese un número a sumar (Se agregaran consecutivamente)", 0)); 
+  	if (n>=1) {
+  		var x=x+n;
+  	}
+  	else{
+  		break;
+  	}
+  	
+  }
+  while (n >=1) {
+  	
+  }
+  document.getElementById("demo").innerHTML="El total es: "+ x;
+}
+</script>
+	
+</body>
+
+<footer class=>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-bottom">
+      <div class="container">
+        <ul class="mr-auto">
+          <li><a>Aranda Mendoza Elsa</a></li>
+          <li><a>EVN302</a></li>
+          <li><a>14/06/2020</a></li>
+          <li><a>19002286@alumnos.utleon.edu.mx</a></li>
+          <li><a>arandamendozaelsa@gmail.com</a></li>
+          </ul>
+        <div class="container ml-auto" >
+          <img src="images/chi.jpg" width="100px" height="auto">
+        </div>
+      </div>
+    </nav>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/util.js"></script>
+</html>

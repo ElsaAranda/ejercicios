@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Articulos</title>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/estilos.css">
+</head>
+<style>
+    body {
+    background-color: #900c3f;
+	background-image: url('images/fundillosec.jpg');
+  	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%; }
+</style>
+<body onload="ciclo();">
+		
+	<script type="text/javascript">
+		var i=prompt("¿Cuántos articulos/cajas desea crear?");
+			var n=1;
+			if(i<=8){
+				while(n<=i){
+					document.write('<article id="caja" style="background-color:#000000">'+'<FONT COLOR="#ffffff">Caja '+n+'</FONT>'+'<article>');
+					n++;
+				}
+			}
+			if(i>=9){
+				while(n<=i){
+					document.write('<article id="caja1" style="background-color:#000000">'+'<FONT COLOR="#ffffff">Caja '+n+'</FONT>'+'<article>');
+					n++;
+				}
+	
+			}
+	</script>
+	</body>
+<style type="text/css">
+		#caja1{			
+  			display: inline-flex;
+		}
+</style>
+</html>
